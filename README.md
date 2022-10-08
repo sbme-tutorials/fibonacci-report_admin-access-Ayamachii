@@ -179,14 +179,14 @@ void power(int F[2][2], int n)
 
 ---
 # Summary Table
-| Methods | Time complexity | Space complexity
---- | --- | ---
-**Method 1**| O(2<sup>n</sup>) | O(n)
-**Method 2** | O(n) | O(n)
-**Method 3** | O(n) | O(1)
-**Method 4** | O(1) | O(1)
-**Method 5** | O(n) | O(1)
-**Method 6** | O(n) | O(1)
+| Methods      | Time complexity  | Space complexity
+|------------- | ---------------- | ----------------
+| **Method 1** | O(2<sup>n</sup>) | O(n)
+| **Method 2** | O(n)             | O(n)
+| **Method 3** | O(n)             | O(1)
+| **Method 4** | O(1)             | O(1)
+| **Method 5** | O(n)             | O(1)
+| **Method 6** | O(n)             | O(1)
 
 <font size = "4">We can therefore conclude that the best method is the 3<sup>rd</sup> method that uses</font> **<font size = "4">Benet's formula</font>**
 
