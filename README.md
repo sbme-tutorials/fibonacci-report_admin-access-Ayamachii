@@ -179,6 +179,7 @@ void power(int F[2][2], int n)
 
 ---
 # Summary Table
+
 | Methods      | Time complexity  | Space complexity |
 |------------- | ---------------- | -----------------|
 | **Method 1** | O(2<sup>n</sup>) | O(n)             |
