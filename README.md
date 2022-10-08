@@ -31,7 +31,7 @@ else
 return fib(n-1)+ fib(n-2);
 ```
 
-<font size="3">**This method has**</font>
+<font size="3"> **This method has** </font>
 * A time complexity of **O(2<sup>n</sup>)**
 * A memory complexity of **O(n)** 
 
@@ -56,7 +56,7 @@ int fib(int n) {
     }
 }
 ```
-<font size="3">**This method has**</font>
+<font size="3"> **This method has** </font>
 * A time complexity of **O(n)**
 * A memory complexity of **O(n)**
 
@@ -83,7 +83,7 @@ int fib(int n) {
     }
 }
 ```
-<font size="3">**This method has**</font>
+<font size="3"> **This method has** </font>
 * A time complexity of **O(n)**
 * A memory complexity of **O(1)**
 
@@ -100,7 +100,7 @@ int fib(int n) {
     return (pow(1+ sqrt(5),m+1)- pow(1- sqrt(5),m+1))/(sqrt(5)* pow(2, m+1));
 }
 ````
-<font size="3">**This method has**</font>
+<font size="3"> **This method has** </font>
 * A time complexity of **O(1)**
 * A memory complexity of **O(1)**
 
@@ -130,7 +130,7 @@ while (i < n) {
 return fb;
 }
 ```
-<font size="3">**This method has**</font>
+<font size="3"> **This method has** </font>
 * A time complexity of **O(n)**
 * A memory complexity of **O(1)**
 
@@ -173,13 +173,13 @@ void power(int F[2][2], int n)
         multiply(F, M);
 }
 ```
-<font size="3">**This method has**</font>
+<font size="3"> **This method has** </font>
 * A time complexity of **O(n)**
 * A memory complexity of **O(1)**
 
 ---
 # Summary Table
-|  | Time complexity | Space complexity
+| Methods | Time complexity | Space complexity
 --- | --- | ---
 **Method 1**| O(2<sup>n</sup>) | O(n)
 **Method 2** | O(n) | O(n)
@@ -188,7 +188,7 @@ void power(int F[2][2], int n)
 **Method 5** | O(n) | O(1)
 **Method 6** | O(n) | O(1)
 
-<font size = "4">We can therefore conclude that the best method is the **3<sup>rd</sup> method** that uses **Benet's formula**</font>
+<font size = "4"> We can therefore conclude that the best method is the **3<sup>rd</sup> method** that uses **Benet's formula** </font>
 
 ---
 ### References
