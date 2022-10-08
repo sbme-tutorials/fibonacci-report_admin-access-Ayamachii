@@ -16,7 +16,7 @@ Many natural phenomena follow the Fibonacci sequence. As branching in trees, the
 
 ---
 ## Finding the n<sup>th</sup> number in the Fibonacci sequence:
-<font size = "2">*Please note that calculations are done assuming the series is zero-indexed.*</font>
+<font size = "2"> *Please note that calculations are done assuming the series is zero-indexed.* </font>
 
 ## Method 1
 Using **Recursion**
@@ -31,7 +31,7 @@ else
 return fib(n-1)+ fib(n-2);
 ```
 
-<font size="3"> **This method has** </font>
+**<font size="3">This method has</font>**
 * A time complexity of **O(2<sup>n</sup>)**
 * A memory complexity of **O(n)** 
 
