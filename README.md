@@ -188,7 +188,7 @@ void power(int F[2][2], int n)
 **Method 5** | O(n) | O(1)
 **Method 6** | O(n) | O(1)
 
-<font size = "4">We can therefore conclude that the best method is the **3<sup>rd</sup> method** that uses **Benet's formula**</font>
+<font size = "4">We can therefore conclude that the best method is the 3<sup>rd</sup> method that uses</font> **<font size = "4">Benet's formula</font>**
 
 ---
 ### References
