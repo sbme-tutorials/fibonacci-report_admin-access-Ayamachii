@@ -3,7 +3,7 @@
 ---
 ![FibonacciSeries](fib.jpg)
 
-##What is the Fibonacci sequence?
+## What is the Fibonacci sequence?
 
 **The Fibonacci Sequence** is the series of numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, etc.
 The next number is the sum of the 2 numbers preceding it.
@@ -13,10 +13,10 @@ Many natural phenomena follow the Fibonacci sequence. As branching in trees, the
 **The golden ratio** of 1.618, a universal law that represents the **“ideal”** in all forms of life and matter ,dear to mathematicians, scientists, and naturalists across history is derived from the Fibonacci sequence where the quotient between each successive pair of numbers approximates to 1.618.
 
 ---
-##Finding the nth number in the Fibonacci sequence:
+## Finding the n<sup>th</sup> number in the Fibonacci sequence:
 <font size = "2">*Please note that calculations are done assuming the series is zero-indexed.*</font>
 
-##Method 1
+## Method 1
 Using **Recursion**
 
 ```cpp
@@ -30,11 +30,11 @@ return fib(n-1)+ fib(n-2);
 ```
 
 <font size="3">**This method has**</font>
-* A time complexity of **O(2^n^)**
+* A time complexity of **O(2<sup>n</sup>)**
 * A memory complexity of **O(n)** 
 
 ---
-##Method 2
+## Method 2
 
 Forming an **array** of Fibonacci numbers until the desired n.
 
@@ -59,9 +59,9 @@ int fib(int n) {
 * A memory complexity of **O(n)**
 
 ---
-##Method 3
+## Method 3
 
-Similar to the previous method but **does not use an array** as we need only the nth element, so there is no need to keep the numbers preceding it.
+Similar to the previous method but **does not use an array** as we need only the n<sup>th</sup> element, so there is no need to keep the numbers preceding it.
 
 ```cpp
 int fib(int n) {
@@ -86,9 +86,9 @@ int fib(int n) {
 * A memory complexity of **O(1)**
 
 ---
-##Method 4
+## Method 4
 
-Using the **Benet's Formula** to get the n^th^ number directly:
+Using the **Benet's Formula** to get the n<sup>th</sup> number directly:
 
 ![Fibonacci formula](fibonacciFormula.png)
 ````cpp
@@ -103,11 +103,11 @@ int fib(int n) {
 * A memory complexity of **O(1)**
 
 ---
-##Method 5
+## Method 5
 
 As mentioned earlier, the **golden ratio** is derived from the Fibonacci sequence where the **quotient** between each successive pair of numbers **approximates** to 1.618.
 
-This method deals with the Fibonacci sequence as a geometric sequence to find the nth term.
+This method deals with the Fibonacci sequence as a geometric sequence to find the n<sup>th</sup> term.
 
 Since it uses an approximate value of the golden ratio it is **NOT as accurate** as the other methods mentioned.
 
@@ -133,7 +133,7 @@ return fb;
 * A memory complexity of **O(1)**
 
 ---
-##Method 6
+## Method 6
 Using **Matrix exponentiation**
 ```c++
 int fib(int n) {
@@ -177,20 +177,20 @@ void power(int F[2][2], int n)
 * A memory complexity of **O(1)**
 
 ---
-#Summary Table
+# Summary Table
 |  | Time complexity | Space complexity
 --- | --- | ---
-**Method 1**| O(2^n^) | O(n)
+**Method 1**| O(2<sup>n</sup>) | O(n)
 **Method 2** | O(n) | O(n)
 **Method 3** | O(n) | O(1)
 **Method 4** | O(1) | O(1)
 **Method 5** | O(n) | O(1)
 **Method 6** | O(n) | O(1)
 
-<font size = "4">We can therefore conclude that the best method is the **3^rd^ method** that uses **Benet's formula**</font>
+<font size = "4">We can therefore conclude that the best method is the **3<sup>rd</sup> method** that uses **Benet's formula**</font>
 
 ---
-###References
+### References
 
 - [Program for nth Fibonacci number, Geeksforgeeks](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
 - [BBC Radio 4 - In Our Time, The Fibonacci Sequence](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.co.uk%2Fprogrammes%2Fb008ct2j&psig=AOvVaw2gVRBlyCaay1oSjoQuNhD3&ust=1665082042547000&source=images&cd=vfe&ved=0CA4Q3YkBahcKEwjQttSZ4Mn6AhUAAAAAHQAAAAAQAw)
